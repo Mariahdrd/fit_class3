@@ -1,0 +1,87 @@
+
+
+form{
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    background-color: hsla(33, 84%, 57%, 0.582);
+    border-radius: 50px;
+    width: 45%;
+
+    
+    
+}
+body {
+    background-color:#000000 ;
+    position: relative;
+    background-image:url('/img/acemia.jpg');
+    background-size: 106%;
+    background-repeat: no-repeat;
+
+    
+}
+h2{
+    color: #ffa200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: #893000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+a:hover {
+    transform: scale(1.2);
+    color: #ffae00; /* muda a cor no hover (ex: dourado) */
+}
+a:active {
+    color: #ff0000; /* cor ao clicar (ex: rosa forte) */
+}
+
+div{
+    width: 400px;
+    text-align: left;
+}
+input{
+    width: 100%;
+    border-radius:5px;
+    height: 25px;
+    border: 1px solid #ff7700;
+    
+}
+footer{
+    border: 1px solid #630f0f;
+    width: 50%;
+    background-color: #ffee0073;
+}
+button{
+    width: 15%;
+    height: 35px;
+    background-color: #fcb900;
+    border: 1px solid #523000; 
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size:15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+}
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ffb700;
+
+}
+.mario-style {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.0em;
+    color: #ffaa00; /* vermelho Mario */
+    text-shadow:
+      2px 2px 0 #ffffff,  /* contorno branco */
+      4px 4px 0 #51002d;  /* sombra preta */
+    display: inline-block;
+    transform: rotate(-2deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .mario-style:hover {
+    transform: scale(1.1) rotate(0deg);
+  }
